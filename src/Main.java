@@ -2,9 +2,11 @@ import HeithemBourbia.HeithemBourbia;
 import static wissemBoumahdef.WissemBoumahdef.calculateFactorial;
 import static wissemBoumahdef.WissemBoumahdef.isEven;
 
+
 public class Main {
     public static void main(String[] args) {
         int[] tableau = {1, 2, 3};
+
 
         // Appel des méthodes de la classe Membre1
         int somme = HeithemBourbia.calculerSomme(tableau);
