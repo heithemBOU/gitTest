@@ -5,7 +5,7 @@ import static wissemBoumahdef.WissemBoumahdef.isEven;
 
 public class Main {
     public static void main(String[] args) {
-        int[] tableau = {1, 2, 3};
+        int[] tableau = {1, 2, 3, 4};
 
 
         // Appel des méthodes de la classe Membre1
