@@ -5,8 +5,12 @@ import static wissemBoumahdef.WissemBoumahdef.isEven;
 
 public class Main {
     public static void main(String[] args) {
+<<<<<<< HEAD
         int[] tableau = {1, 2, 3, 5,6,7,8};
+=======
+>>>>>>> be3af4e0096eebb8c2e602f405e596219c3ae198
 
+        int[] tableau = {1, 2, 3, 5, 6};
 
         // Appel des méthodes de la classe Membre1
         int somme = HeithemBourbia.calculerSomme(tableau);
@@ -16,8 +20,8 @@ public class Main {
         System.out.println("Somme du tableau: " + somme);
         System.out.println("Moyenne du tableau: " + moyenne);
 
-
         int number = 7;
+
         int factorial = calculateFactorial(number);
         System.out.println("Factorielle de " + number + " : " + factorial);
 
