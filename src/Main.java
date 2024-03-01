@@ -6,7 +6,7 @@ import static wissemBoumahdef.WissemBoumahdef.isEven;
 public class Main {
     public static void main(String[] args) {
 
-        int[] tableau = {1, 2, 3, 5, 6};
+        int[] tableau = {1, 2, 3, 5, 6,7,8};
 
         // Appel des méthodes de la classe Membre1
         int somme = HeithemBourbia.calculerSomme(tableau);
