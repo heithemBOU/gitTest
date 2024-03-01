@@ -1,4 +1,6 @@
 import HeithemBourbia.HeithemBourbia;
+import static wissemBoumahdef.WissemBoumahdef.calculateFactorial;
+import static wissemBoumahdef.WissemBoumahdef.isEven;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,5 +13,19 @@ public class Main {
         // Affichage des résultats
         System.out.println("Somme du tableau: " + somme);
         System.out.println("Moyenne du tableau: " + moyenne);
+
+
+        int number = 4;
+        int factorial = calculateFactorial(number);
+        System.out.println("Factorielle de " + number + " : " + factorial);
+
+        // Vérification si 4 est pair
+        boolean isEven = isEven(number);
+        if (isEven) {
+            System.out.println(number + " est pair.");
+        } else {
+            System.out.println(number + " n'est pas pair.");
+        }
+
     }
 }
