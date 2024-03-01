@@ -5,10 +5,6 @@ import static wissemBoumahdef.WissemBoumahdef.isEven;
 
 public class Main {
     public static void main(String[] args) {
-<<<<<<< HEAD
-        int[] tableau = {1, 2, 3, 5,6,7,8};
-=======
->>>>>>> be3af4e0096eebb8c2e602f405e596219c3ae198
 
         int[] tableau = {1, 2, 3, 5, 6};
 
