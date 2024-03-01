@@ -16,8 +16,8 @@ public class Main {
         System.out.println("Somme du tableau: " + somme);
         System.out.println("Moyenne du tableau: " + moyenne);
 
-
         int number = 7;
+
         int factorial = calculateFactorial(number);
         System.out.println("Factorielle de " + number + " : " + factorial);
 
